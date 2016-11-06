@@ -58,7 +58,7 @@
  }
  h3{
  	font-family:Arial;
- 	color:cyan; 
+ 	color:cyan;
  }
  h1{
  	color:yellow;
@@ -70,37 +70,37 @@
     <div class="new" id="main">
     <h3>BITS OF PAPER</h3>
 	<div class="dropdown">
-	
-		<button class="dropbtn"><img src="/web development/project/img/a12.jpg" width="150" height="70"></button>
+
+		<button class="dropbtn"><img src="/web development/project/img/a12.jpg" width="250" height="150"></button>
 		<div class="dropdown-content">
 			<a href="bits.php">Lyrics/Audio</a>
 			<a href="bitsvideo.php">Video</a>
 		</div>
         </div><br>
-	<h3 style="float: right; padding-right: 20px">TWINKLE TWINKLE LITTLE STAR</h3>
+	<h3 style="float: right; padding-right: 80px">TWINKLE TWINKLE LITTLE STAR</h3>
 	<div class="clearfix"></div>
 	<div class="dropdown" id="n">
-	
-		<button class="dropbtn"><img src="/web development/project/img/a7.jpg" width="150" height="70"></button>
+
+		<button class="dropbtn"><img src="/web development/project/img/a7.jpg" width="250" height="150"></button>
 		<div class="dropdown-content">
 			<a href="twinkle.php">Lyrics/Audio</a>
 			<a href="twinklevideo.php">Video</a>
 		</div>
         </div><br>
-    <h3>JOHNY JOHNY</h3>    
+    <h3>JOHNY JOHNY</h3>
 	<div class="dropdown">
-	
-		<button class="dropbtn"><img src="/web development/project/img/a8.jpg" width="150" height="70"></button>
+
+		<button class="dropbtn"><img src="/web development/project/img/a8.jpg" width="250" height="150"></button>
 		<div class="dropdown-content">
 			<a href="johnny.php">Lyrics/Audio</a>
 			<a href="johnyvideo.php">Video</a>
 		</div>
         </div><br>
-        <h3 style="float: right; padding-right: 120px">HUMPTY DUMPTY</h3>
+        <h3 style="float: right; padding-right: 200px">HUMPTY DUMPTY</h3>
         <div class="clearfix"></div>
         <div class="dropdown" id="m">
-        
-		<button class="dropbtn"><img src="/web development/project/img/a9.jpg" width="150" height="70"></button>
+
+		<button class="dropbtn"><img src="/web development/project/img/a9.jpg" width="250" height="150"></button>
 		<div class="dropdown-content">
 			<a href="humpty.php">Lyrics/Audio</a>
 			<a href="humptyvideo.php">Video</a>
@@ -108,8 +108,8 @@
         </div><br>
 		<h3>MARY HAD A LITTLE LAMB</h3>
         <div class="dropdown">
-        
-		<button class="dropbtn"><img src="/web development/project/img/a11.jpg" width="150" height="70"></button>
+
+		<button class="dropbtn"><img src="/web development/project/img/a11.jpg" width="250" height="150"></button>
 		<div class="dropdown-content">
 			<a href="mary.php">Lyrics/Audio</a>
 			<a href="maryvideo.php">Video</a>

@@ -9,49 +9,59 @@ if(logged_in()===false){
 <?php
 }else{   include 'homepage.php';
     ?>
-    <div id="main">
+    <style type="text/css">
+      li h4 a{
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 5px 50px;
+        font-style:  Papyrus;
+        font-size:25px;
+        text-decoration: none;
+        width: 100px;
+      }
+      li a:hover{
+        background-color: white;
+        color:black;
+      }
+    </style>
+    <div id="main" style="background-image: url('/web development/project/img/wall16.jpg');background-repeat: no-repeat;background-size: cover;">
     <div class="con">
-        <h3>ACTIVITY</h3>
+        <h1 style="color: white">ACTIVITY</h1>
         <div>
             <div class="one">
-            <a href="magic.php" >
-                <img src="/web development/project/img/magic.jpg" height="200" width="200" alt="Unable to load!"> 
+            <a href="canvas.php" >
+                <img src="/web development/project/img/maze.jpg" height="200" width="200" alt="Unable to load!">
             </a>
             </div>
-            <div class="two">
-                <br><ul style="list-style-type: none">
-                    <li style="font-style: italic;"><h4><a href="magic.php">MAGIC NUMBER</a></h4></li>
-                </ul>
+            <div class="two" style="padding-left: 120px;">
+                <br><h1 style="padding-left: 98px;padding-top: 20px;color: white">MAZE</h1>
             </div>
-        </div>        
-    </div><hr/>
+        </div>
+    </div><br><br>
     <div class="con">
         <div>
             <div class="one">
             <a href="dd.php" >
-                <img src="/web development/project/img/dd.png" height="200" width="200" alt="Unable to load!"> 
+                <img src="/web development/project/img/dd.png" height="200" width="200" alt="Unable to load!">
             </a>
             </div>
-            <div class="two">
-                <br><ul style="list-style-type: none">
-                    <li style="font-style: italic;"><h4><a href="magic.php">DRAG AND DROP SHAPES</a></h4></li>
-                </ul>
+            <div class="two" style="padding-left: 120px;">
+                <br><h1 style="padding-left: 98px;padding-top: 20px;color: black">DRAG AND DROP SHAPES</h1>
             </div>
-        </div>        
-    </div><hr/>
+        </div>
+    </div><br><br>
     <div class="con">
         <div>
             <div class="one">
-            <a href="word.php" >
-                <img src="/web development/project/img/word.jpg" height="200" width="200" alt="Unable to load!"> 
+            <a href="match.php" >
+                <img src="/web development/project/img/match.jpg" height="200" width="200" alt="Unable to load!">
             </a>
             </div>
-            <div class="two">
-                <br><ul style="list-style-type: none">
-                    <li style="font-style: italic;"><h4><a href="magic.php">DRAG AND DROP WORDS</a></h4></li>
-                </ul>
+            <div class="two" style="padding-left: 120px;">
+                <br><h1 style="padding-left: 98px;padding-top: 20px;color: white">MATCH</h1>
             </div>
-        </div>        
+        </div>
     </div><hr/>
     </div>
 <?php

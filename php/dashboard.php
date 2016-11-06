@@ -3,7 +3,8 @@
 <title>KIDHUB</title>
 <link rel="stylesheet" type="text/css" href="/web development/project/css/dashboard.css">
 </head>
-<body>
+<body >
+
 <?php
 include 'auth.php';
 
@@ -16,61 +17,58 @@ if(logged_in()===false){
 }else{
     include 'homepage.php';
 ?>
+<div style="background-image: url('/web development/project/img/wall3.jpg');background-size:cover;">
     <div id="main">
     <div class="con">
-    <h2>Welcome <?php echo $data['name'];?>,</h2>   
+    <h2 style="color:orange;">Welcome <?php echo $data['name'];?>,</h2>
     </div>
-    <hr/> 
-    
     <div class="con" id="div1">
-        <div id="rhyme">
-        <h3 style="padding-left:10px">RHYMES</h3>
-        
+        <div>
+        <h3 style="padding-left:10px;color: gray;font-size:30px;">RHYMES</h3>
+
             <div class="one">
             <a href="rhyme.php" >
-            <img src="/web development/project/img/rhyme.png" style="padding-left:10px" height="200" width="200" alt="Unable to load!"> 
+            <img src="/web development/project/img/rhyme.png" style="padding-left:10px" height="200" width="200" alt="Unable to load!">
             </a>
             </div>
             <div class="two">
-                <br><p id="zyx"><b>The rhymes section contains varieties of rhymes which also consists of audio,video and lyrics for 
+                <br><p id="zyx" style="color: white;font-size:  25px;"><b>The rhymes section contains varieties of rhymes which also consists of audio,video and lyrics for
                         the kids to sing and learn along. They are a way for kid to learn and grow with fun.</b></p>
             </div>
-        </div>      
-    </div>
-    
-    <hr/>
+        </div>
+    </div><br>
     <div class="con1" id="div2">
-        
-        <div id="story">
-            <h3 style="padding-left:10px">STORIES</h3>
+
+        <div>
+            <h3 style="padding-left:10px;color: #002966;font-size: 30px;">STORIES</h3>
             <div class="one">
             <a href="story.php" >
-            <img src="/web development/project/img/story.jpg" style="padding-left:10px" height="200" width="200" alt="Unable to load!"> 
+            <img src="/web development/project/img/story.jpg" style="padding-left:10px" height="200" width="200" alt="Unable to load!">
             </a>
             </div>
             <div class="two">
-                <br><p id="zyx"><b>The stories section contains varieties of stories which also consists of audio,video and text for 
+                <br><p id="zyx" style="color: white; font-size: 25px;"><b>The stories section contains varieties of stories which also consists of audio,video and text for
                         the kids to read and learn along. They are a way for kid to learn and grow with fun.</b></p>
             </div>
-        </div>        
+        </div>
     </div>
-    <div class="clearfix"></div>
-    <hr/>
+    <div class="clearfix"></div><br>
     <div class="con1" id="div3">
-        
-        <div id="activity">
-            <h3 style="padding-left:10px">ACTIVITY</h3>
+
+        <div>
+            <h3 style="padding-left:10px;color: blue;font-size: 30px;">ACTIVITY</h3>
             <div class="one">
             <a href="activity.php" >
-            <img src="/web development/project/img/act.jpg" height="200" width="200" alt="Unable to load!" style="padding-left:10px"> 
+            <img src="/web development/project/img/act.jpg" height="200" width="200" alt="Unable to load!" style="padding-left:10px">
             </a>
             </div>
             <div class="two">
-                <br><p id="zyx"><b>The activity section contains varieties of activities which consists of varieties of games and activities like magic numbers for 
+                <br><p id="zyx" style="color:white;font-size: 25px;"><b>The activity section contains varieties of activities which consists of varieties of games and activities like magic numbers for
                         the kids to play along. They are a way for kid to learn and grow with fun.</b></p>
             </div>
-        </div>        
+        </div>
     </div><hr/>
+    </div>
     </div>
     <script type="text/javascript">
         window.onscroll = function() {div1(), div2(), div3()};
@@ -106,4 +104,3 @@ if(logged_in()===false){
 include 'footer.php';?>
 </body>
 </html>
-

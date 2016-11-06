@@ -33,7 +33,7 @@ li+li{border-left: 2px solid #000000}
 	background-color:#F3100D;
 	border-radius:2px;
 	border:2px solid black;
-	transition-duration:1s; 
+	transition-duration:1s;
 }
 .login{
 	color:white;
@@ -105,11 +105,11 @@ div.rd{
 	animation: animatezoom 1s;
 }
 @-webkit-keyframes animatezoom {
-	    from {-webkit-transform: scale(0)} 
+	    from {-webkit-transform: scale(0)}
 	    to {-webkit-transform: scale(1)}
 }
 @keyframes animatezoom {
-        from {transform: scale(0)} 
+        from {transform: scale(0)}
 	    to {transform: scale(1)}
 }
 form {
@@ -144,7 +144,7 @@ img.avatar {
 }
 .animate1{
 	animation: fadein 5s;
-        
+
 }
 @-webkit-keyframes fadein {
     from { opacity: 0; }

@@ -8,7 +8,7 @@ li a{
 #b{
     list-style-type: none;
     margin: 0;
-    padding: 0; 
+    padding: 0;
     width: 150px;
     background-color: #f1f1f1;
 }
@@ -17,16 +17,19 @@ li a{
 
 }
 #rhyme:hover{
-    transition:5s;
-    transform: translateX(300px);
+    /*transition:5s;
+    transform: translateX(300px);*/
+    background-color: orange;
 }
 #story:hover{
-    transition:5s;
-    transform: translateX(-300px);
+    /*transition:5s;
+    transform: translateX(-300px);*/
+    background-color: blue;
 }
 #activity:hover{
-    transition:5s;
-    transform: translateX(300px);
+    /*transition:5s;
+    transform: translateX(300px);*/
+    background-color: lightgreen;
 }
 #div2{
     max-width: 820px;
@@ -78,9 +81,11 @@ div.two{
     height: 200px;
 }
 #zyx{
-    font-size: 20px;
-    font-style: italic;
+    font-size: 40px;
+    /*font-style: italic;*/
     font: papyrus;
+    color: black;
+
 }
 .cont{
     padding-left: 400px;
@@ -132,14 +137,9 @@ input[type=number]{
 	   	box-sizing: border-box;
 }
 
-#rhyme ,#activity{
-    z-index: 1;
-    background-color: gray;
-    color: white;
-    border: solid 2px #000;
+/*#rhyme ,#activity{
+    color: black;
 }
 #story{
-    z-index: 1;
-    background-color: white;
-    border: solid 2px #000;
-}
+    color:black;
+}*/

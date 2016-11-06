@@ -8,7 +8,7 @@
  }
 .name{
 	font-size: 40px;
-	color: turquoise;
+	color: rgba(111,143,247,01.0);
 	font-family: Arial;
 }
 div a {
@@ -38,7 +38,9 @@ ul ul li a {display:block !important;}
 ul ul li:hover {background: blue;}
 .new{
   padding-left: 120px;
-  background-color: #0066cc;
+  background-image: url("/web development/project/img/wall1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #m,#n{
   float:right;
@@ -49,7 +51,7 @@ ul ul li:hover {background: blue;}
 </head>
 <body>
 <div class="new" id="main">
-	<h1 style="font-size: 50px; color:#b22385; text-align: center; font-family:cursive;">Stories With A Moral!</h1>
+	<h1 style="font-size: 50px; color:rgba(255, 164, 45,0.9); text-align: center; font-family:cursive;">Stories With A Moral!</h1>
   <div id="div1">
   <div style="max-width: 500px;">
   <p class="name" >The Lion and The Mouse</p>

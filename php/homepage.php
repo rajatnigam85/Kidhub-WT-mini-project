@@ -84,7 +84,7 @@
         <ul style="display: inline-block;">
             <li style="cursor: pointer;font-size: 30px;color: white;" onclick="openNav()">&#9776;</li>
         </ul>
-        <ul style="padding-left:40px;display: inline-block; position: absolute;">
+        <ul class="m" style="padding-left:40px;display: inline-block; position: absolute;">
                     <li><a  href="dashboard.php">Home</a></li>
                     <li><a  href="rhyme.php">Rhymes</a></li>
                     <li><a  href="story.php">Stories</a></li>
@@ -104,7 +104,7 @@
                     <a href="contact.php">Contact Us</a>
                     <a href="logout.php">Log Out</a>
             </div>
-            
+
             <script>
                 function openNav(){
                     document.getElementById('sideNav').style.width="250px";
@@ -119,8 +119,7 @@
                     document.body.style.backgroundColor = "white";
                     document.getElementById("main1").style.marginLeft="0px";
                 }
-                
+
             </script>
         </body>
 </html>
-

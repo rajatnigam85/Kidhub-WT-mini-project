@@ -3,7 +3,7 @@
 	<link rel="stylesheet" type="text/css" href="/web development/project/css/dashboard.css">
 	<style type="text/css">
 		div.bg{
-		    background-image : url("/web development/project/img/a1.jpg");
+		    background-image : url("/web development/project/img/wall13.png");
 		    background-repeat: repeat;
 		    background-size: cover;
 		    position: relative;

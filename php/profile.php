@@ -37,7 +37,7 @@ if(logged_in()===false){
         );
         update_data($update);
         }
-    else{?><div id="main">
+    else{?><div id="main" style="background-image: url('/web development/project/img/wall6.jpg');background-size: 1490px 500px;">
     <div id="mn"><?php
         echo output_errors($error);
     }

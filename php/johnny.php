@@ -11,10 +11,15 @@ include 'homepage.php';
 		font-size:20px;
 	}
 	body{
-			background-color: grey;
+			background-image: url('/web development/project/img/wall20.jpg');
+		background-size: cover;
+		background-position: center ;
 	}
 	h1{
 		color:yellow;
+	}
+	.con{
+		color:white;
 	}
 </style>
 </head>
