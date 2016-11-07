@@ -9,7 +9,7 @@ include 'auth.php';
 	<link rel="stylesheet" type="text/css" href="/web development/project/css/home.css">
 	<script type="text/javascript">
 		function checkForm(form){
-			if(form.psw.value!==form.psw1.value){
+			if(form.pword.value!==form.psw1.value){
 				alert("Error:Passwords are not same!");
 				return false;
 			}

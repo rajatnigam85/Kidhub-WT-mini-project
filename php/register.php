@@ -13,7 +13,7 @@ if(empty($_POST)===false){
     if(isset($_POST['name'])){
         $pname=  $_POST['name'];
     }
-    if(isset($_POST['age'])){   
+    if(isset($_POST['age'])){
        $age  =  $_POST['age'];
     }
     if(isset($_POST['email'])){
@@ -33,7 +33,7 @@ if(empty($_POST)===false){
             $error[]='Please enter a valid email address!';
         }
         if(email_exists($email)){
-            $error[]='Sorry, the email is \''.$email.'\' already in use!';
+            $error[]='Sorry, the email  \''.$email.'\' is  already in use!';
         }
     }
 }
