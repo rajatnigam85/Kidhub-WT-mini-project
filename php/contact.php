@@ -7,9 +7,19 @@ if(logged_in()===false){
     ?></h3>
     <div id="main" align="center"><a href="home.php">Login</a></div>
 <?php
-}else{include 'homepage.php';   ?>
-            <div id="main" class="con" style="background-image: url('/web development/project/img/wall22.jpg');background-size: cover;background-position: 90% 50%;">
-                <div style="padding-left: 120px;">
+}else{ include 'homepage.php';   ?>
+  <style type="text/css">
+  .x{
+    background-image: url('/web development/project/img/wall9.jpg');
+    background-size: cover;
+    background-position: -50px 10px;
+    z-index: -1;
+  }
+  </style>
+  <div class="x">
+            <div id="main" class="con">
+
+                <div style="padding-left: 120px;padding-top: 0px;">
                 <table border="2">
                     <br>
                     <thead><div><h3>Contact info</h3></div></thead>
@@ -38,10 +48,10 @@ if(logged_in()===false){
                         <td style="padding: 25px;color: black;font-size: 25px;">8467913579</td>
                     </tr>
                 </table>
-                </div><br>
+              </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
                 <hr/>
             </div>
-    
+</div>
 <?php
 }
 include 'footer.php';

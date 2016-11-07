@@ -116,7 +116,8 @@ if(logged_in()===false){
             r=a-408;
             if((r-p)>200||(r-p)<-200){
             ctx.lineTo(r,s=b-180);
-            ctx.strokeStyle="red";
+            ctx.strokeStyle="white";
+            ctx.lineWidth=5;
             ctx.stroke();
 
           }
