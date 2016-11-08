@@ -1,4 +1,4 @@
-<?php 
+<?php
 include 'homepage.php';
 ?>
 <!DOCTYPE html>
@@ -10,6 +10,7 @@ include 'homepage.php';
 			padding-left:180px;
 			position: relative;
 		}
+		
 	</style>
 </head>
 <body>

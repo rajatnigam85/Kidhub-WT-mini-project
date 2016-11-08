@@ -77,7 +77,8 @@ if(logged_in()===false){
       function choose(event){
             a=event.clientX;
             //console.log(a);
-            b=event.clientY;
+            b=event.clientY+document.body.scrollTop;
+            //console.log(b);
             count++;
             if(count%2==0){
                 draw();
@@ -99,6 +100,7 @@ if(logged_in()===false){
       var z5=document.querySelector("#td5");
       var y5=document.querySelector("#td0");
 
+      //console.log(yoffset);
       z1.addEventListener("click",choose,false);
       y1.addEventListener("click",choose,false);
       z2.addEventListener("click",choose,false);
@@ -123,7 +125,7 @@ if(logged_in()===false){
           }
       }
       var ans=[[z1,y3],[z2,y1],[z3,y5],[z4,y4],[z5,y2]];
-      console.log(ans.length);
+      //console.log(ans.length);
       var response=[];
       function validate(){
         var num1,num2;

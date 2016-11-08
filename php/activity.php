@@ -24,6 +24,17 @@ if(logged_in()===false){
         background-color: white;
         color:black;
       }
+      .x{
+        height: 200px;
+        width: 200px;
+        transition: width 2s, height 2s, transform 2s;
+      }
+      .x:hover{
+        height: 300px;
+        width: 300px;
+        position: relative;
+        transform: rotate(360deg);
+      }
     </style>
     <div id="main" style="background-image: url('/web development/project/img/wall16.jpg');background-repeat: no-repeat;background-size: cover;">
     <div class="con">
@@ -31,7 +42,7 @@ if(logged_in()===false){
         <div>
             <div class="one">
             <a href="canvas.php" >
-                <img src="/web development/project/img/maze.jpg" height="200" width="200" alt="Unable to load!">
+                <img src="/web development/project/img/maze.jpg" class="x"  alt="Unable to load!">
             </a>
             </div>
             <div class="two" style="padding-left: 120px;">
@@ -43,7 +54,7 @@ if(logged_in()===false){
         <div>
             <div class="one">
             <a href="dd.php" >
-                <img src="/web development/project/img/dd.png" height="200" width="200" alt="Unable to load!">
+                <img src="/web development/project/img/dd.png" class="x" alt="Unable to load!">
             </a>
             </div>
             <div class="two" style="padding-left: 120px;">
@@ -55,14 +66,14 @@ if(logged_in()===false){
         <div>
             <div class="one">
             <a href="match.php" >
-                <img src="/web development/project/img/match.jpg" height="200" width="200" alt="Unable to load!">
+                <img src="/web development/project/img/match.jpg" class="x" alt="Unable to load!">
             </a>
             </div>
             <div class="two" style="padding-left: 120px;">
                 <br><h1 style="padding-left: 98px;padding-top: 20px;color: white">MATCH</h1>
             </div>
         </div>
-    </div><hr/>
+    </div><br><br><br><br><br><br><br><br><hr/>
     </div>
 <?php
 }

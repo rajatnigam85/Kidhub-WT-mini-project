@@ -11,17 +11,32 @@ include 'homepage.php';
 	body{
 		background-color: grey;
 	}
+	.animate{
+			display: block;
+			transition: 2s;
+			transition-timing-function: ease-in-out;
+			transform: rotate(360deg);
+			height: 500px;
+			width: 1000px;
+			transition: width 4s, height 4s,transform 4s;
+	}
 </style>
 </head>
-<body>
+<body onload="load()">
 <div id="main" class="con">
 <h1>ENJOY THE VIDEO!!</h1>
-<video width="1000" height="500" controls>
+<video width="100" height="50" id="x" controls>
   <source src="/web development/project/video/Twinkle Twinkle Little Star.mp4" type="video/mp4">
   <source src="/web development/project/video/Twinkle Twinkle Little Star.ogg" type="video/ogg">
   Your browser does not support the video tag.
 </video>
 </div>
+<script>
+	var x=document.querySelector("#x");
+	function load(){
+		x.className="animate";
+	}
+</script>
 </body>
 </html>
 <?php

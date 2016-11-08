@@ -6,9 +6,10 @@
 	background-color: #0066ff;
 	color:white;
 	padding: 1px;
-    font-size: 16px;
-    border: 3px solid #000;
-    cursor: pointer;
+  font-size: 16px;
+  border: 3px solid #000;
+  cursor: pointer;
+
 }
 .dropbtn:hover, .dropbtn:focus {
     background-color: red;
@@ -56,7 +57,7 @@
  .clearfix{
  	clear: both;
  }
- h3{
+ h2{
  	font-family:Arial;
  	color:cyan;
  }
@@ -68,7 +69,7 @@
 </head>
 <body>
     <div class="new" id="main">
-    <h3>BITS OF PAPER</h3>
+    <h2>BITS OF PAPER</h2>
 	<div class="dropdown">
 
 		<button class="dropbtn"><img src="/web development/project/img/a12.jpg" width="250" height="150"></button>
@@ -77,7 +78,7 @@
 			<a href="bitsvideo.php">Video</a>
 		</div>
         </div><br>
-	<h3 style="float: right; padding-right: 80px">TWINKLE TWINKLE LITTLE STAR</h3>
+	<h2 style="float: right; padding-right: 80px">TWINKLE TWINKLE LITTLE STAR</h2>
 	<div class="clearfix"></div>
 	<div class="dropdown" id="n">
 
@@ -87,7 +88,7 @@
 			<a href="twinklevideo.php">Video</a>
 		</div>
         </div><br>
-    <h3>JOHNY JOHNY</h3>
+    <h2>JOHNY JOHNY</h2>
 	<div class="dropdown">
 
 		<button class="dropbtn"><img src="/web development/project/img/a8.jpg" width="250" height="150"></button>
@@ -96,7 +97,7 @@
 			<a href="johnyvideo.php">Video</a>
 		</div>
         </div><br>
-        <h3 style="float: right; padding-right: 200px">HUMPTY DUMPTY</h3>
+        <h2 style="float: right; padding-right: 200px">HUMPTY DUMPTY</h2>
         <div class="clearfix"></div>
         <div class="dropdown" id="m">
 
@@ -106,7 +107,7 @@
 			<a href="humptyvideo.php">Video</a>
 		</div>
         </div><br>
-		<h3>MARY HAD A LITTLE LAMB</h3>
+		<h2>MARY HAD A LITTLE LAMB</h2>
         <div class="dropdown">
 
 		<button class="dropbtn"><img src="/web development/project/img/a11.jpg" width="250" height="150"></button>

@@ -23,8 +23,8 @@ if(logged_in()===false){
     <h2 style="color:orange;">Welcome <?php echo $data['name'];?>,</h2>
     </div>
     <div class="con" id="div1">
-        <div>
-        <h3 style="padding-left:10px;color: gray;font-size:30px;">RHYMES</h3>
+        <div id="rhyme">
+        <h3 style="padding-left:10px;color: black;font-size:30px;">RHYMES</h3>
 
             <div class="one">
             <a href="rhyme.php" >
@@ -39,8 +39,8 @@ if(logged_in()===false){
     </div><br>
     <div class="con1" id="div2">
 
-        <div>
-            <h3 style="padding-left:10px;color: #002966;font-size: 30px;">STORIES</h3>
+        <div id="story">
+            <h3 style="padding-left:10px;color: orange;font-size: 30px;">STORIES</h3>
             <div class="one">
             <a href="story.php" >
             <img src="/web development/project/img/story.jpg" style="padding-left:10px" height="200" width="200" alt="Unable to load!">
@@ -55,7 +55,7 @@ if(logged_in()===false){
     <div class="clearfix"></div><br>
     <div class="con1" id="div3">
 
-        <div>
+        <div id="activity">
             <h3 style="padding-left:10px;color: blue;font-size: 30px;">ACTIVITY</h3>
             <div class="one">
             <a href="activity.php" >

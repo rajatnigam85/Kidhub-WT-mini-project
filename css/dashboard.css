@@ -17,19 +17,22 @@ li a{
 
 }
 #rhyme:hover{
-    /*transition:5s;
-    transform: translateX(300px);*/
+    transition:5s;
+    transform: translateX(300px);
     background-color: orange;
+    color: blue;
 }
 #story:hover{
-    /*transition:5s;
-    transform: translateX(-300px);*/
+    transition:5s;
+    transform: translateX(-300px);
     background-color: blue;
+    color: yellow;
 }
 #activity:hover{
-    /*transition:5s;
-    transform: translateX(300px);*/
-    background-color: lightgreen;
+    transition:5s;
+    transform: translateX(300px);
+    color: blue;
+    background-color: red;
 }
 #div2{
     max-width: 820px;

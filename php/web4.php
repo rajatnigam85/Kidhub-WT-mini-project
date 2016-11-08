@@ -21,18 +21,19 @@ include 'homepage.php';
       padding-left: 120px;
     }
   </style>
+	<script src='https://code.responsivevoice.org/responsivevoice.js'></script>
 </head>
 <body>
 <div id="main">
-  <p style="padding-left: 120px;font-size: 40px; color: blue; font-family: arial;">The Boy Who Cried Wolf.</p>
+  <p onmouseover='responsiveVoice.speak("The Boy Who Cried Wolf.")' style="padding-left: 120px;font-size: 40px; color: blue; font-family: arial;">The Boy Who Cried Wolf.</p>
 	<div class="div1">
             <img class="subimg" src="/web development/project/img/wolf.jpeg" alt="The Boy Who Cried Wolf." >
-            <p style="float: right; margin-left: 12em; margin-top: -12em;" class="para">  
+            <p style="float: right; margin-left: 12em; margin-top: -12em;" class="para">
             Once there was a shepherd boy, who had to look after a flock of sheep. One day, he felt bored and decided to play a trick on the villagers. He shouted, “Help! Wolf! Wolf!”<br>
             The villagers heard his cries and rushed out of the village to help the shepherd boy. When they reached him, they asked, “Where is the wolf?”<br>
             The shepherd boy laughed loudly, “Ha, Ha, Ha! I fooled you all. I was only playing a trick on you.”
             A few days later, the shepherd boy played the trick again.<br>
-            He cried, “Help! Help! Wolf! Wolf!” 
+            He cried, “Help! Help! Wolf! Wolf!”
             </p>
   </div>
   <p class="para">

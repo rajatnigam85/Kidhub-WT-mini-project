@@ -21,13 +21,14 @@ include 'homepage.php';
       padding-left: 120px;
     }
   </style>
+	<script src='https://code.responsivevoice.org/responsivevoice.js'></script>
 </head>
 <body>
 <div id="main">
-  <p style="padding-left: 120px;font-size: 40px; color: blue; font-family: arial;">The Lion and the Mouse</p>
+  <p onmouseover='responsiveVoice.speak("The Lion and the Mouse")' style="padding-left: 120px;font-size: 40px; color: blue; font-family: arial;">The Lion and the Mouse</p>
 	<div class="div1">
             <img class="subimg" src="/web development/project/img/lion1.jpg" alt="The Lion and the Mouse" >
-            <p style="float: right; margin-left: 12em; margin-top: -12em;" class="para">  
+            <p style="float: right; margin-left: 12em; margin-top: -12em;" class="para">
             Once when a lion, the king of the jungle, was asleep, a little mouse began running up and down on him. This soon awakened the lion, who placed his huge paw on the mouse, and opened his big jaws to swallow him.<br>
             "Pardon, O King!" cried the little mouse. "Forgive me this time. I shall never repeat it and I shall never forget your kindness. And who knows, I may be able to do you a good turn one of these days!<br>
             The lion was so tickled by the idea of the mouse being able to help him that he lifted his paw and let him go.

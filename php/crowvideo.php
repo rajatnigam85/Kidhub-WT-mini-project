@@ -1,4 +1,4 @@
-<?php 
+<?php
 include 'homepage.php';
 ?>
 <!DOCTYPE html>
